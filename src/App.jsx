@@ -9,6 +9,9 @@ const App = () => {
       className="w-full h-screen duration-200"
       style={{ backgroundColor: color }}
     >
+    <div className="flex justify-center align-center py-[250px]">
+     <h2 className="bg-gray-900 p-[20px] rounded-full text-3xl text-white uppercase">{color}</h2>
+    </div>
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-full">
           <button
